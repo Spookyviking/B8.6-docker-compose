@@ -16,7 +16,7 @@ services:
       retries: 10
 
   nginx:
-    container_name: ${COMPOSE_PROJECT_NAME}-nginx
+    container_name: ${COMPOSE_PROJECT_NAME}nginx
     image: nginx:alpine3.17-slim
     restart: always
     ports:
