@@ -1,4 +1,4 @@
-# Homework 7.8.7
+# B8.6-docker-compose
 
 ## Задание:
 
@@ -12,7 +12,6 @@
 
 ## Решение:
 
-- build: `docker-compose build`
-- run: `docker-compose up`
+- build and run: `docker-compose up -d`
 - result: `http://127.0.0.1:80/ `
 
